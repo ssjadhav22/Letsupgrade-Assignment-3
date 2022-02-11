@@ -1,0 +1,54 @@
+<html>
+    <body>
+        <title>Assignment_3</title>
+        <script>
+             var student=[
+                 {
+                     name:"Shubham",
+                     cls:10,
+                     roll_no:26,
+                     percentage:88
+                 },
+                 {
+                    name:"Sanket",
+                     cls:9,
+                     roll_no:15,
+                     percentage:96
+                 },
+                 {
+                    name:"Ramesh",
+                     cls:7,
+                     roll_no:43,
+                     percentage:68
+                 },
+                 {
+                    name:"Sonali",
+                     cls:11,
+                     roll_no:39,
+                     percentage:98
+                 },
+                 {
+                    name:"Animesh",
+                     cls:12,
+                     roll_no:63,
+                     percentage:74
+                 }
+
+
+             ]
+
+             for(i=0;i<student.length;i++)
+             {
+                 console.log(student[i].name);
+             }
+
+
+             student.forEach(
+                 function(stu,i)
+                 {
+                    console.log(stu,i)
+                 }
+                 )
+        </script>
+    </body>
+</html>
